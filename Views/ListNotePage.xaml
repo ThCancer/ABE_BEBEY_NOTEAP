@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.ListNotePage">
+    <ScrollView Margin="10,10,10,10">
+        <VerticalStackLayout Margin="20,0,20,0">
+            <Label
+                Padding="0,10"
+                FontSize="20"
+                FontAttributes="Bold"
+                Text="Remember"/>
+            <Label
+                FontSize="14"
+                Text="Lorem ipsum dolor sitamet, consectetur adipiscing elit."/>
+            <Label
+                FontSize="14"
+                TextColor="Gray"
+                Text="1 hour ago"
+                HorizontalOptions="End"/>
+            <HorizontalStackLayout Padding="0,0,0,10">
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star.png"/>
+            </HorizontalStackLayout>
+
+            <Border Stroke="#000000" StrokeThickness="0.5" Background="#000000" HorizontalOptions="Fill"/>
+
+
+            <Label
+                Padding="0,10"
+                FontSize="20"
+                FontAttributes="Bold"
+                Text="Remember"/>
+            <Label
+                FontSize="14"
+                Text="Lorem ipsum dolor sitamet, consectetur adipiscing elit."/>
+            <Label
+                FontSize="14"
+                TextColor="Gray"
+                Text="1 hour ago"
+                HorizontalOptions="End"/>
+            <HorizontalStackLayout Padding="0,0,0,10">
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star.png"/>
+            </HorizontalStackLayout>
+            <Border Stroke="#000000" StrokeThickness="0.5" Background="#000000" HorizontalOptions="Fill"/>
+
+
+            <Label
+                Padding="0,10"
+                FontSize="20"
+                FontAttributes="Bold"
+                Text="Remember"/>
+            <Label
+                FontSize="14"
+                Text="Lorem ipsum dolor sitamet, consectetur adipiscing elit."/>
+            <Label
+                FontSize="14"
+                TextColor="Gray"
+                Text="1 hour ago"
+                HorizontalOptions="End"/>
+            <HorizontalStackLayout Padding="0,0,0,10">
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star.png"/>
+            </HorizontalStackLayout>
+
+            <Border Stroke="#000000" StrokeThickness="0.5" Background="#000000" HorizontalOptions="Fill"/>
+
+
+            <Label
+                Padding="0,10"
+                FontSize="20"
+                FontAttributes="Bold"
+                Text="Remember"/>
+            <Label
+                FontSize="14"
+                Text="Lorem ipsum dolor sitamet, consectetur adipiscing elit."/>
+            <Label
+                FontSize="14"
+                TextColor="Gray"
+                Text="1 hour ago"
+                HorizontalOptions="End"/>
+            <HorizontalStackLayout Padding="0,0,0,10">
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star.png"/>
+            </HorizontalStackLayout>
+
+            <Border Stroke="#000000" StrokeThickness="0.5" Background="#000000" HorizontalOptions="Fill"/>
+
+
+            <Label
+                Padding="0,10"
+                FontSize="20"
+                FontAttributes="Bold"
+                Text="Remember"/>
+            <Label
+                FontSize="14"
+                Text="Lorem ipsum dolor sitamet, consectetur adipiscing elit."/>
+            <Label
+                FontSize="14"
+                TextColor="Gray"
+                Text="1 hour ago"
+                HorizontalOptions="End"/>
+            <HorizontalStackLayout Padding="0,0,0,10">
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star_fill.png"/>
+                <ImageButton Source="star.png"/>
+            </HorizontalStackLayout>
+
+            <Border Stroke="#000000" StrokeThickness="0.5" Background="#000000" HorizontalOptions="Fill"/>
+
+            <AbsoluteLayout ZIndex="10" TranslationX="250" TranslationY="-90">
+                <ImageButton Source="add_button.png"/>
+            </AbsoluteLayout>
+
+        </VerticalStackLayout>
+
+
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.HomePage">
+
+    <FlexLayout Direction="Column"
+            AlignItems="Center"
+            JustifyContent="SpaceAround">
+
+        <VerticalStackLayout
+            Spacing="8"
+            Padding="30,0"
+            VerticalOptions="Center"
+                Margin="0,100">
+
+            <ImageButton
+                 Source="plus_icon.png"
+                SemanticProperties.Description="Add note icon!"
+                HeightRequest="200"
+                HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                
+               />
+
+
+            <Label
+                Text="create"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="24"
+                     HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+            
+        </VerticalStackLayout>
+
+
+
+        <Label
+                Text="Another way to take note"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="A different way to take note"
+                FontSize="16"
+                HorizontalOptions="Center"/>
+
+    </FlexLayout>
+</ContentPage>

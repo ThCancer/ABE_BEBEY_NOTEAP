@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.AddNewNotePage"
+             Title="addNote">
+    <Grid Padding="10" RowSpacing="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition  Height="120"/>
+            <RowDefinition  Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <HorizontalStackLayout>
+            <Button Text="return" BackgroundColor="Transparent" TextColor="Gray" Padding="0"/>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout Grid.Row="1" Grid.Column="0"  Spacing="20">
+            <Label Text="new Note" FontSize="45" FontAttributes="Bold"/>
+            <Entry Placeholder="Note title"/>
+        </VerticalStackLayout>
+        <HorizontalStackLayout Grid.Column="0" Grid.Row="2" Spacing="5">
+            <Button Text="B" FontAttributes="Bold" BackgroundColor="#E8E8E8" TextColor="Black"/>
+            <Button Text="U" BackgroundColor="#E8E8E8" TextColor="Black"/>
+            <Button Text="I" BackgroundColor="#E8E8E8" TextColor="Black" FontAttributes="Italic"/>
+        </HorizontalStackLayout>
+        <Editor Placeholder="Note content" Grid.Column="0" Grid.Row="3"/>
+        <Grid RowDefinitions="100*" ColumnDefinitions="50*,50*" ColumnSpacing="10" Grid.Column="0" Grid.Row="4">
+            <Button Text="save" BackgroundColor="#2A8CFF" TextColor="White"/>
+            <Button Text="cancel" Grid.Column="1" Grid.Row="0"  BackgroundColor="#E8E8E8"/>
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
